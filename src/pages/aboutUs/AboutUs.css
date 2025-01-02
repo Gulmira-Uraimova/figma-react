@@ -1,0 +1,60 @@
+.aboutUs{
+    width: 1167.97px;
+    height: 612.21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 50px;
+
+}
+.aboutUs__contents{
+    width: 436.73px;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUs__contents p{
+    width: 416.73px;
+    height: 75px;
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+
+}
+.aboutUs__content{
+    width: 376.21px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+}
+.aboutUs__best{
+    width: 290.21px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs__secure{
+    width: 290.21px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs__free{
+    width: 290.21px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+}
+
+
