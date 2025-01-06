@@ -1,11 +1,8 @@
 import React from 'react'
 import './Features.css'
-import AChair from '../../assets/AChair.png'
-// import Chairs from '../../assets/Chairs.svg'
-// import pedestal from '../../assets/pedestal.svg'
-import rect from '../../assets/Rectangle 34.png'
-import rectan from '../../assets/Rectangle 36.png'
-import rectangle from '../../assets/Rectangle 38.png'
+import Rect from '../../assets/Rectangle 34.png'
+import Rectang from '../../assets/Rectangle 36.png'
+import Rectangle from '../../assets/Rectangle 38.png'
 import loupe from '../../assets/loupe 1.png'
 import group from '../../assets/Group.png'
 import Facebook from '../../assets/Facebook.svg'
@@ -13,6 +10,9 @@ import Twitter from '../../assets/Twitter.svg'
 import Instagram from '../../assets/Instagram (3).png'
 import Youtube from '../../assets/Youtube.svg'
 import Row from '../../assets/Row.svg'
+import Heart from '../../assets/heart.png'
+import Share from '../../assets/Share.png'
+import Heart2 from '../../assets/Heart2.png'
 
 const Features = () => {
   return (
@@ -26,7 +26,7 @@ const Features = () => {
                 <li class="header__a"onclick=''><a href="../features" style={{textDecoration: 'none' }}>Features</a></li>
                 <li>Contact</li>
             </ul>
-            <div>
+            <div className='header__group'>
                <img src={loupe} alt="error" className=''/>
                <img src={group} alt="error" /> 
             </div>
@@ -35,41 +35,141 @@ const Features = () => {
         </nav>
 
 
-
-        <div className='Features'>
-            <h1>
-               Hello, this is a feature page!
-            </h1>
-            <div className='Features__header'>
-               <img src={AChair} alt='error'/>
-               <p>All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials </p>
-            </div>
-        </div>
-
-        <div className='popular'>
-            <div>
-                <h2 className='popular__text'>Our Popular Furniture</h2>
-            </div>
-            <div className='popular__img'>
-                <img src={rect} alt='error'/>
-                <img src={rectan} alt='error'/>
-                <img src={rectangle} alt='error'/>
-            </div>
-
+      
+         < div className='Feature__slides'>
+                    <div className='Slider__cards'>
+                        <img src={Rectangle} alt='error'/>
+                        <div className='Slider__card'>
+                            <p>White Swan Chair </p>
+                            <img src={Heart} alt='error' className='Slider__heart'/>
+                            <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                            <p className='forty'>$40</p>
+                            <button className='Slider__btn'>Buy Now</button>
+                        </div>
+                            
+                    </div>
+                    <div className='Slider__cards'>
+                        <img src={Rectang} alt='error'/>
+                        <div className='Slider__card'>
+                               <p>White Swan Chair</p>
+                               <img src={Heart2} alt='error'className='Slider__heart'/>
+                               <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                               <p className='forty'>$40</p>
+                               <button className='Slider__btn'>Buy Now</button>
+                        </div>
+                            
+                    </div>
+                    
+                    <div className='Slider__cards'>
+                        <img src={Rect} alt='error'/>
+                        <div className='Slider__card'>
+                            <p>White Swan Chair</p>
+                            <img src={Heart2} alt='error'className='Slider__heart'/>
+                            <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                            <p className='forty'>$40</p>
+                            <button className='Slider__btn'>Buy Now</button>
+                        </div>
         
+                    </div>
+                </div>
 
 
-            {/* <div className='Features__pictures'>
-                <p>Our customers are very important to us</p>
-                <img src={Chairs} alt='error'/>
-            </div>
-
-            <div className='Features__pictures'>
-                <img src={pedestal} alt='error'/>
-                <p>Our customers are very important to us</p>
-            </div> */}
+                < div className='Feature__slides'>
+                    <div className='Slider__cards'>
+                        <img src={Rectangle} alt='error'/>
+                        <div className='Slider__card'>
+                            <p>White Swan Chair </p>
+                            <img src={Heart} alt='error' className='Slider__heart'/>
+                            <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                            <p className='forty'>$40</p>
+                            <button className='Slider__btn'>Buy Now</button>
+                        </div>
+                            
+                    </div>
+                    <div className='Slider__cards'>
+                        <img src={Rectang} alt='error'/>
+                        <div className='Slider__card'>
+                               <p>White Swan Chair</p>
+                               <img src={Heart2} alt='error'className='Slider__heart'/>
+                               <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                               <p className='forty'>$40</p>
+                               <button className='Slider__btn'>Buy Now</button>
+                        </div>
+                            
+                    </div>
+                    
+                    <div className='Slider__cards'>
+                        <img src={Rect} alt='error'/>
+                        <div className='Slider__card'>
+                            <p>White Swan Chair</p>
+                            <img src={Heart2} alt='error'className='Slider__heart'/>
+                            <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                            <p className='forty'>$40</p>
+                            <button className='Slider__btn'>Buy Now</button>
+                        </div>
         
-        </div>
+                    </div>
+                </div>
+
+                < div className='Feature__slides'>
+                    <div className='Slider__cards'>
+                        <img src={Rectangle} alt='error'/>
+                        <div className='Slider__card'>
+                            <p>White Swan Chair </p>
+                            <img src={Heart} alt='error' className='Slider__heart'/>
+                            <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                            <p className='forty'>$40</p>
+                            <button className='Slider__btn'>Buy Now</button>
+                        </div>
+                            
+                    </div>
+                    <div className='Slider__cards'>
+                        <img src={Rectang} alt='error'/>
+                        <div className='Slider__card'>
+                               <p>White Swan Chair</p>
+                               <img src={Heart2} alt='error'className='Slider__heart'/>
+                               <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                               <p className='forty'>$40</p>
+                               <button className='Slider__btn'>Buy Now</button>
+                        </div>
+                            
+                    </div>
+                    
+                    <div className='Slider__cards'>
+                        <img src={Rect} alt='error'/>
+                        <div className='Slider__card'>
+                            <p>White Swan Chair</p>
+                            <img src={Heart2} alt='error'className='Slider__heart'/>
+                            <img src={Share} alt='error'/>
+                        </div>
+                        <div className='Slider__card'>
+                            <p className='forty'>$40</p>
+                            <button className='Slider__btn'>Buy Now</button>
+                        </div>
+        
+                    </div>
+                </div>
+
+
+
+
+
 
 
        <footer className='Footer'>
@@ -117,7 +217,7 @@ const Features = () => {
             </div>
            </div>
            </div>
-          <hr className='hr'/>
+          <hr className='Footer__hr'/>
           <p className='Footer__end'>Copyright @ 2021. Crafted with love.</p>
         </footer>
     </section>

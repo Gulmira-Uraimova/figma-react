@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-      <hr className='hr'/>
+      <hr className='Footer__hr'/>
       <p className='Footer__end'>Copyright @ 2021. Crafted with love.</p>
     </footer>
   )

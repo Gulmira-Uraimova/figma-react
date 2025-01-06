@@ -14,7 +14,7 @@ const Header = () => {
             <li class="header__a"onclick=''><a href="../features" style={{textDecoration: 'none' }}>Features</a></li>
             <li>Contact</li>
         </ul>
-        <div>
+        <div className='header__loup'>
            <img src={loupe} alt="error" className=''/>
            <img src={group} alt="error" /> 
         </div>

@@ -9,7 +9,7 @@ const Content = () => {
        <div>
         <h2>We Help You Make Modern Furniture</h2>
         <p>All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials </p>
-        <button>Explore More</button>
+        <button className='content__btn'>Explore More</button>
        </div>
     </section>
   )

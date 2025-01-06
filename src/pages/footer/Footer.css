@@ -143,11 +143,13 @@
 
 
 }
-/* .hr{
-    width: 1440px;
+.Footer__hr{
+    width: 1400px;
     height: 1px; 
-    border: 1px solid var(--clr-grey-text);
-} */
+    /* border: 1px solid var(--clr-grey-text); */
+    color: #859395;
+
+}
 
 
 
