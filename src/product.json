@@ -1,0 +1,32 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"img": "http://localhost:3000/static/media/Rectangle%2038.4589d5d174231209b1c7.png",
+			"title": "Product 1",
+			"like": true,
+			"price": 25.99
+		},
+		{
+			"id": 2,
+			"img": "http://localhost:3000/static/media/Rectangle%2036.0344960f9b861389a12c.png",
+			"title": "Product 2",
+			"like": false,
+			"price": 35.5
+		},
+		{
+			"id": 3,
+			"img": "http://localhost:3000/static/media/Rectangle%2034.129136b8b38a0367b5a9.png",
+			"title": "Product 3",
+			"like": true,
+			"price": 45.0
+		},
+		{
+			"id": 4,
+			"img": "http://localhost:3000/static/media/Rectangle%2038.4589d5d174231209b1c7.png",
+			"title": "Product 4",
+			"like": false,
+			"price": 19.99
+		}
+	]
+}

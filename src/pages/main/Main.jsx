@@ -13,18 +13,17 @@ import Footer from '../footer/Footer';
 
 const Main = () => {
   return (
-    <>
-    <Header/>
-    <Content/>
-    <Logos/>
-    <AboutUs/> 
-    <Slider/> 
-    <Furniture/>
-    <Customers/>
-    <Form/>
-    <Footer/>
-    
-    </>
+    <div className='main'>
+      <Header/>
+      <Content/>
+      <Logos/>
+      <AboutUs/> 
+      <Slider/> 
+      <Furniture/>
+      <Customers/>
+      <Form/>
+      <Footer/>
+    </div>
   )
 }
 

@@ -7,12 +7,11 @@ const Form = () => {
     <section className='Form'>
         <h3>Subscribe to get the latest news about us</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore at dolore.</p>
-        <div className='Form__inp'>
-            <div className='Form__post'> 
-                <img src={post} alt='error'/>
-                <a href="#" style={{ textDecoration: 'none' }}>Enter your email</a>
-            </div>
-           
+        <div className='form__inp_block'>
+            <label>
+              <img src={post} alt='error' className='form__inp_icon' />
+            </label>
+            <input type="text" className='form__inp' placeholder='Enter your email' />
             <button className='Form__btn'>Register</button>
         </div>
     </section>

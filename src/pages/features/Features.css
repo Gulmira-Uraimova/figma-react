@@ -114,6 +114,17 @@
 }
 .Footer{
     width: 1400px;
-    margin-left: 70px;
-    margin-top: 50px;
+    margin: 50px auto;
+}
+
+.Feature__slides {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Slider__cards {
+    margin-top: 30px;
 }

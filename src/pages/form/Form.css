@@ -33,16 +33,23 @@
     font-size: 16px;
     color: #222222;
 }
-.Form__inp{
+
+.form__inp {
     width: 471.98px;
     height: 67px;
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding-left: 44px;
 }
+
+.form__inp::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #BABABA;
+}
+
 .Form__post{
     color: #BABABA;
     margin-left: 10px;
@@ -69,6 +76,19 @@
     text-decoration-skip-ink: none;
     font-size: 16px;
     color: #FFFFFF;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    cursor: pointer;
+}
 
+.form__inp_block {
+    position: relative;
+}
 
+.form__inp_icon {
+    position: absolute;
+    top: 24px;
+    left: 15px;
 }

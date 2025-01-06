@@ -9,7 +9,6 @@ function App() {
     <Routes>
       <Route path='/'element= {<Main/>}/>
       <Route path='Features' element= {<Features/>}/>
-
     </Routes>
   
   );
